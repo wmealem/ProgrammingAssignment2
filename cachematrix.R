@@ -59,5 +59,5 @@ cacheSolve <- function(the.matrix, ...) {
     data <- the.matrix$get()
     calculated.inverse <- solve(data)
     the.matrix$setinverse(calculated.inverse)
-    inverse
+    calculated.inverse
 }
